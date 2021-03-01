@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/CSS/styles.css' %}">
+    <script src="{% static 'JavaScript/main.js' %}" defer></script>
+    <title>Music Search</title>
+</head>
+<body>
+    <header>Crate Digging</header>
+    <div class="container">
+
+        <form id="search-form">
+
+        <div class="search-bar-row">
+            <input class="search-field" type="text" placeholder="Artist/Song" required>
+
+            <button id="search-button">Dig~</button>
+        </div>
+
+        <div class='audio-preview'>
+            <audio autoplay src="" controls autoplay></audio>
+        </div>
+
+        </form>
+
+        <div>
+        <section class="search-section">
+            <div class="search-results">
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+
+    </div>
+</body>
+</html>

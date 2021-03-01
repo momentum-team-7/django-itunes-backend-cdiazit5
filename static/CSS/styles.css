@@ -1,0 +1,84 @@
+* {
+    font-family: 'Lexend Mega', sans-serif;
+    box-sizing: border-box;
+    /* background-image: linear-gradient(to left, #7FFFD4, #FFF8DC) */
+}
+
+html {
+    background-image: linear-gradient(to left, #7FFFD4, #FFF8DC)
+}
+
+header {
+    border: 3px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 100px;
+    font-family:cursive;
+    font-weight: bold;
+    color: #7FFFD4;
+    text-align: center;
+    /* background-image: linear-gradient(to left, #7FFFD4, #FFF8DC) */
+    background-image: url('Vinyl-records.jpg');
+    background-size:cover;
+    min-height: 300px;
+}
+
+.search-bar-row {
+    /* border: 3px solid black; */
+    padding: 5px;
+    margin-bottom: 15px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.audio-preview {
+    border:  3px solid black;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #7FFFD4, #FFF8DC)
+}
+
+.song-container {
+    /* border: 2px solid orangered; */
+    text-align: center;
+    width: 32%;
+    height:fit-content;
+    padding: 2px;
+    margin-bottom: 30px;
+}
+
+.search-results {
+    /* border:  4px solid rebeccapurple; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    min-height: 500px;
+}
+
+input.search-field {
+    width: 225px;
+}
+
+.audio-preview {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search-field {
+    padding: 10px;
+    border-radius: 25px;
+    width: 300px;
+}   
+
+#search-button {
+    border-radius: 25px;
+}
+
+#search-button:hover {
+    background-color: white;
+}
